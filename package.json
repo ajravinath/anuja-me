@@ -1,6 +1,6 @@
 {
   "name": "anuja-me",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,13 @@
     "@babel/runtime-corejs3": "^7.9.2",
     "eslint": "^6.8.0",
     "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
     "sass": "^1.26.3"
+  },
+  "staticFiles": {
+    "staticPath": [
+      "./src/assets"
+    ],
+    "watcherGlob": "**"
   }
 }
