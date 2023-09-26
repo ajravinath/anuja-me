@@ -7,7 +7,7 @@ const SectionProfile = () => {
         <div class="section__text">
           <div class="section__text__p1"></div>
           <h1 class="title">${document.myName}</h1>
-          <p class="section__text__p2">Front-end Developer</p>
+          <p class="section__text__p2">Software Engineer</p>
           <div class="btn-container">
             <button 
               class="btn btn-color-2" 
