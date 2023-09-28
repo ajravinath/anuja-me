@@ -11,7 +11,7 @@ const SectionAbout = () => {
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
-          <img src="./aranwalage.jpg" alt="profile picture" class="about-pic" />
+          <img src="https://drive.google.com/uc?export=view&id=1l6RG5CMP5sE5XpYI5KJ7E6_vvEyqbBo3" alt="profile picture" class="about-pic" />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
