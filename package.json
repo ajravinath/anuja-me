@@ -1,6 +1,6 @@
 {
   "name": "anuja-me",
-  "version": "2.1.2",
+  "version": "2.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
       "./src/assets"
     ],
     "watcherGlob": "**"
+  },
+  "dependencies": {
+    "papaparse": "^5.4.1"
   }
 }
