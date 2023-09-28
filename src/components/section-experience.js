@@ -7,74 +7,74 @@ const SectionExperience = () => {
         <div class="about-containers xp">
           <div class="details-container">
             <h2 class="experience-sub-title">Languages</h2>
-            <div class="article-container">
+            <div class="article-container skills-container">
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>JavaScript</h3>
+                  <p>JavaScript</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>TypeScript</h3>
+                  <p>TypeScript</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>NodeJS</h3>
+                  <p>NodeJS</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Python</h3>
+                  <p>Python</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>TypeScript</h3>
+                  <p>TypeScript</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>CSS 3</h3>
+                  <p>CSS 3</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>HTML 5</h3>
+                  <p>HTML 5</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Dart</h3>
+                  <p>Dart</p>
                   <p>Intermidiate</p>
                 </div>
               </article>
               <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
-                <h3>Java</h3>
+                <p>Java</p>
                 <p>Intermidiate</p>
               </div>
             </article>
               <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
-                <h3>ReasonML</h3>
+                <p>ReasonML</p>
                 <p>Experienced</p>
               </div>
             </article>
@@ -82,95 +82,95 @@ const SectionExperience = () => {
           </div>
           <div class="details-container">
             <h2 class="experience-sub-title">Frameworks, Libraries and Technologies</h2>
-            <div class="article-container">
+            <div class="article-container skills-container">
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>React.js</h3>
+                  <p>React.js</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Next.js</h3>
+                  <p>Next.js</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Django</h3>
+                  <p>Django</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Flask</h3>
+                  <p>Flask</p>
                   <p>Intermidiate</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Redux</h3>
+                  <p>Redux</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Express</h3>
+                  <p>Express</p>
                   <p>Intermidiate</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Apollo</h3>
+                  <p>Apollo</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Jest</h3>
+                  <p>Jest</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Kubernetes</h3>
+                  <p>Kubernetes</p>
                   <p>Intermidiate</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>Docker</h3>
+                  <p>Docker</p>
                   <p>Intermidiate</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>GraphQL</h3>
+                  <p>GraphQL</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>REST</h3>
+                  <p>REST</p>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
-                  <h3>CI/CD</h3>
+                  <p>CI/CD</p>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -178,46 +178,46 @@ const SectionExperience = () => {
           </div>
           <div class="details-container">
           <h2 class="experience-sub-title">Databases</h2>
-          <div class="article-container">
+          <div class="article-container skills-container">
             <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
-                <h3>Postgres</h3>
+                <p>Postgres</p>
                 <p>Experienced</p>
               </div>
             </article>
             <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
-                <h3>MongoDB</h3>
+                <p>MongoDB</p>
                 <p>Experienced</p>
               </div>
             </article>
             <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
-                <h3>SQLite</h3>
+                <p>SQLite</p>
                 <p>Experienced</p>
               </div>
             </article>
             <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
-                <h3>Snowflake</h3>
+                <p>Snowflake</p>
                 <p>Intermidiate</p>
               </div>
             </article>
             <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
-                <h3>SQL Server</h3>
+                <p>SQL Server</p>
                 <p>Intermidiate</p>
               </div>
             </article>
             <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
-                <h3>MySQL</h3>
+                <p>MySQL</p>
                 <p>Intermidiate</p>
               </div>
             </article>

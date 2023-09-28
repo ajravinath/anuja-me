@@ -8,16 +8,34 @@ import SectionExperience from "./components/section-experience";
 import SectionProjects from "./components/section-projects";
 import SectionContact from "./components/section-contact";
 import Footer from "./components/footer";
+import Papa from "papaparse";
 
 const content = document.getElementById("content");
+
+function toJson() {
+  return new Promise((resolve, reject) => {
+    Papa.parse("./projects.csv", {
+      download: true,
+      complete: function (results) {
+        resolve(results.data);
+      },
+      error(err) {
+        reject(err);
+      },
+    });
+  });
+}
+
 const getMyData = async () => {
-  const response = await fetch("https://api.github.com/users/ajravinath");
-  const data = await response.json();
-  setData(data);
+  try {
+    const data = await toJson();
+    setData(data);
+  } catch (err) {
+    console.error("Could not parse json", err);
+  }
 };
 
 const setData = async (data) => {
-  console.log("data:", data);
   document.myName = "Anuja Ranwalage";
   const elements = `<div class="container">
   ${Nav()}
@@ -25,7 +43,7 @@ const setData = async (data) => {
   ${SectionProfile()}
   ${SectionAbout()}
   ${SectionExperience()}
-  ${SectionProjects()}
+  ${SectionProjects(data)}
   ${SectionContact()}
   ${Footer()}
   </div>`;
