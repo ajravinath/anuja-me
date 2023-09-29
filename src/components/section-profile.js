@@ -11,7 +11,7 @@ const SectionProfile = () => {
           <div class="btn-container">
             <button 
               class="btn btn-color-2" 
-              onclick="window.open('https://app.enhancv.com/share/f911dd6c/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic', '_blank')">
+              onclick="window.open('https://drive.google.com/file/d/10Y3zkNofnASqrvO5fdkeKaCqzWF9D3oV/view', '_blank')">
               View CV
             </button>
             <button 
