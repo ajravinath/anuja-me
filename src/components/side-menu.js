@@ -15,12 +15,12 @@ const SideMenu = () => {
                 <span></span>
                 <span></span>
             </div>
-            <div class="menu-links">
+            <menu class="menu-links">
                 <li><a href="#about" onclick="toggleOpen()">About</a></li>
                 <li><a href="#experience" onclick="toggleOpen()">Experience</a></li>
                 <li><a href="#project" onclick="toggleOpen()">Projects</a></li>
                 <li><a href="#contacts" onclick="toggleOpen()">Contact</a></li>
-            </div>
+            </menu>
         </div>
     </nav>
     `;

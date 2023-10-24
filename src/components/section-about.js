@@ -8,14 +8,14 @@ const SectionAbout = () => {
   const template = /*html*/ `
     <section id="about">
       <p class="section__text__p1">Get to know more</p>
-      <h1 class="title">About Me</h1>
+      <h2 class="title">About Me</h1>
         <div class="experience-details-container">
           <div class="about-containers xp">
             <div class="section__pic-container banner-pic">
-              <img src="https://drive.google.com/uc?export=view&id=1l6RG5CMP5sE5XpYI5KJ7E6_vvEyqbBo3" alt="profile picture" class="about-pic" />
+              <img src="./ar_1.webp" alt="profile picture" class="about-pic" />
             </div>
             <div class="about-details-container">
-              <div class="about-containers">
+              <div class="about-containers about-about">
                 <div class="details-container">
                   <div>
                     <img src="./experience.png" alt="experience icon" class="icon" />
@@ -27,7 +27,7 @@ const SectionAbout = () => {
                   <div>
                     <img src="./education.png" alt="education icon" class="icon" />
                     <h3>Education</h3>
-                    <p>BSc. Computer Science<br>General Sir John Kotelawala Defence University<br><b>Upper Second Class Honours (GPA 3.64)</b>
+                    <p>BSc. Computer Science<br>General Sir John Kotelawala Defense University<br><b>Upper Second Class Honours (GPA 3.64)</b>
                     </p>
                   </div>
                 </div>

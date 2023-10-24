@@ -2,7 +2,7 @@ const SectionExperience = () => {
   const template = /*html*/ `
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h2 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers xp">
           <div class="details-container">
@@ -61,14 +61,14 @@ const SectionExperience = () => {
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
                   <p>Dart</p>
-                  <p>Intermidiate</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
                 <p>Java</p>
-                <p>Intermidiate</p>
+                <p>Intermediate</p>
               </div>
             </article>
               <article>
@@ -108,7 +108,7 @@ const SectionExperience = () => {
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
                   <p>Flask</p>
-                  <p>Intermidiate</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -122,7 +122,7 @@ const SectionExperience = () => {
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
                   <p>Express</p>
-                  <p>Intermidiate</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -143,14 +143,14 @@ const SectionExperience = () => {
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
                   <p>Kubernetes</p>
-                  <p>Intermidiate</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
                   <p>Docker</p>
-                  <p>Intermidiate</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -204,21 +204,21 @@ const SectionExperience = () => {
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
                 <p>Snowflake</p>
-                <p>Intermidiate</p>
+                <p>Intermediate</p>
               </div>
             </article>
             <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
                 <p>SQL Server</p>
-                <p>Intermidiate</p>
+                <p>Intermediate</p>
               </div>
             </article>
             <article>
               <img src="./checkmark.png" alt="experience icon" class="icon" />
               <div>
                 <p>MySQL</p>
-                <p>Intermidiate</p>
+                <p>Intermediate</p>
               </div>
             </article>
           </div>

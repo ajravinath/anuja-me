@@ -2,7 +2,7 @@ const SectionContact = () => {
   const template = /*html*/ `
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact me</h1>
+      <h2 class="title">Contact me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img src="./email.png" alt="email icon" class="icon contact-icon email-icon" />
