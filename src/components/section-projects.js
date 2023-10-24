@@ -11,7 +11,7 @@ const SectionProjects = (data) => {
           <div class="article-container projects">
             <img src=${project[4]} alt="project 1" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">${project[0]}</h2>
+          <h3 class="experience-sub-title project-title">${project[0]}</h2>
           <p class="experience-text project-text clamp-max">${project[1]}</p>
           <div class="btn-container project-buttons">
             <button ${projectDisabled} class="btn btn-color-2 project-btn" onclick="window.open('${project[3]}', '_blank')">
@@ -30,9 +30,9 @@ const SectionProjects = (data) => {
   const template = /*html*/ `
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <h2 class="title">Projects</h1>
       <div class="experience-details-container pj scroll-shadows">
-        <div class="about-containers">
+        <div class="about-containers about-projects">
           ${value}
         </div>
         <img src="./arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'" />

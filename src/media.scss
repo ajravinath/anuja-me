@@ -10,6 +10,11 @@
   #projects {
     height: fit-content;
   }
+  .banner-pic {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -53,6 +58,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .about-projects,
+  .about-about {
+    flex-direction: column;
+  }
   #contact,
   footer {
     height: 40vh;

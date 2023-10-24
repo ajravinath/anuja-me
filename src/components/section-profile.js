@@ -2,7 +2,7 @@ const SectionProfile = () => {
   const template = /*html*/ `
     <section id="profile">
         <div class="section__pic-container">
-            <img src="https://drive.google.com/uc?export=view&id=1PlyEIhHUk1mt4gYUFKS3QsS8HnV5l9hK" alt="section-icon" class="profile-pic" />
+            <img src="./ar_0.webp" alt="section-icon" class="profile-pic" />
         </div>
         <div class="section__text">
           <div class="section__text__p1"></div>
