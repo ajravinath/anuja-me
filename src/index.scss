@@ -196,6 +196,10 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  &.round {
+    background-color: white;
+    border-radius: 50%;
+  }
 }
 
 .btn-container {

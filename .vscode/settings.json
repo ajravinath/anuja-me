@@ -4,9 +4,12 @@
         "Calcey",
         "checkmark",
         "corejs",
+        "gradiant",
         "Kotelawala",
         "papaparse",
         "Ranwalage",
         "Visni"
-    ]
+    ],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
