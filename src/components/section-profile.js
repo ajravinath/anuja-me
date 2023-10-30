@@ -20,9 +20,10 @@ const SectionProfile = () => {
               Contact Info
             </button>
           </div>
-          <div id="socials-container">
-            <img src="./linkedin.png" alt="linkedIn" class="icon" onclick="window.open('https://www.linkedin.com/in/anuja-ranwalage/', '_blank')" />
-            <img src="./github.png" alt="github" class="icon" onclick="window.open('https://github.com/ajravinath', '_blank')" />
+        <div id="socials-container">
+            <img src="./linkedin.png" alt="linkedIn" class="icon" title="linkedIn" onclick="window.open('https://www.linkedin.com/in/anuja-ranwalage/', '_blank')" />
+            <img src="./github.png" alt="github" class="icon" title="github" onclick="window.open('https://github.com/ajravinath', '_blank')" />
+            <img src="./stackoverflow.png" alt="stackoverflow" title="stackoverflow" class="icon round" onclick="window.open('https://stackoverflow.com/users/4288706/anuja', '_blank')" />
           </div>
         </div>
     </section>
