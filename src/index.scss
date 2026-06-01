@@ -44,14 +44,8 @@ p {
   color: var(--text-muted);
 }
 
-a,
-.btn {
+a {
   transition: all 0.3s ease;
-  &:disabled {
-    transition: none;
-    pointer-events: none;
-    text-decoration-line: line-through;
-  }
 }
 
 nav,
@@ -298,6 +292,11 @@ section {
 
 .btn:active {
   transform: translateY(0);
+}
+
+.btn:disabled {
+  pointer-events: none;
+  text-decoration-line: line-through;
 }
 
 // primary (filled)
