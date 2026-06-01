@@ -51,7 +51,6 @@ const setData = async (data) => {
 
   const sections = document.querySelectorAll("section");
   if ("IntersectionObserver" in window) {
-    sections.forEach((el) => el.classList.add("reveal"));
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -63,7 +62,16 @@ const setData = async (data) => {
       },
       { threshold: 0.1 },
     );
-    sections.forEach((el) => observer.observe(el));
+    sections.forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        // already in view on load: reveal instantly, no entrance animation
+        el.classList.add("reveal", "is-visible");
+      } else {
+        el.classList.add("reveal");
+      }
+      observer.observe(el);
+    });
   }
 };
 
