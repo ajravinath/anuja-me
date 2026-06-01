@@ -27,13 +27,26 @@ const SectionProjects = (data) => {
   };
 
   const value = document.renderProject();
+
+  window.scrollProjects = (direction) => {
+    const strip = document.querySelector(".about-projects");
+    if (!strip) return;
+    const card = strip.querySelector(".color-container");
+    const step = card ? card.offsetWidth + 24 : strip.clientWidth * 0.8;
+    strip.scrollBy({ left: direction * step, behavior: "smooth" });
+  };
+
   const template = /*html*/ `
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h2 class="title">Projects</h2>
       <div class="experience-details-container pj">
-        <div class="about-containers about-projects">
-          ${value}
+        <div class="projects-carousel">
+          <button class="carousel-btn carousel-prev" type="button" aria-label="Previous projects" onclick="scrollProjects(-1)">❮</button>
+          <div class="about-containers about-projects">
+            ${value}
+          </div>
+          <button class="carousel-btn carousel-next" type="button" aria-label="Next projects" onclick="scrollProjects(1)">❯</button>
         </div>
         <img src="./arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
       </div>
