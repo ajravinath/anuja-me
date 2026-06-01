@@ -8,7 +8,7 @@ const SectionAbout = () => {
   const template = /*html*/ `
     <section id="about">
       <p class="section__text__p1">Get to know more</p>
-      <h2 class="title">About Me</h1>
+      <h2 class="title">About Me</h2>
         <div class="experience-details-container">
           <div class="about-containers xp">
             <div class="section__pic-container banner-pic">

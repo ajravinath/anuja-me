@@ -19,7 +19,7 @@ const Footer = () => {
         </ul>
      </div>
      </nav>
-     <p>© 2023 ${document.myName}</p>
+     <p>© ${new Date().getFullYear()} ${document.myName}</p>
      </footer>
     `;
 

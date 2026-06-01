@@ -18,8 +18,8 @@ const SideMenu = () => {
             <menu class="menu-links">
                 <li><a href="#about" onclick="toggleOpen()">About</a></li>
                 <li><a href="#experience" onclick="toggleOpen()">Experience</a></li>
-                <li><a href="#project" onclick="toggleOpen()">Projects</a></li>
-                <li><a href="#contacts" onclick="toggleOpen()">Contact</a></li>
+                <li><a href="#projects" onclick="toggleOpen()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleOpen()">Contact</a></li>
             </menu>
         </div>
     </nav>

@@ -2,7 +2,7 @@ const SectionExperience = () => {
   const template = /*html*/ `
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h2 class="title">Experience</h1>
+      <h2 class="title">Experience</h2>
       <div class="experience-details-container">
         <div class="about-containers xp">
           <div class="details-container">
@@ -33,13 +33,6 @@ const SectionExperience = () => {
                 <img src="./checkmark.png" alt="experience icon" class="icon" />
                 <div>
                   <p>Python</p>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="experience icon" class="icon" />
-                <div>
-                  <p>TypeScript</p>
                   <p>Experienced</p>
                 </div>
               </article>
