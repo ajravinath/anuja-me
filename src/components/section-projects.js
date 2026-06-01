@@ -42,11 +42,11 @@ const SectionProjects = (data) => {
       <h2 class="title">Projects</h2>
       <div class="experience-details-container pj">
         <div class="projects-carousel">
-          <button class="carousel-btn carousel-prev" type="button" aria-label="Previous projects" onclick="scrollProjects(-1)">❮</button>
+          <button class="carousel-btn carousel-prev" type="button" aria-label="Previous projects" onclick="scrollProjects(-1)"><img src="./icons/chevron_left_48dp.png" alt="" /></button>
           <div class="about-containers about-projects">
             ${value}
           </div>
-          <button class="carousel-btn carousel-next" type="button" aria-label="Next projects" onclick="scrollProjects(1)">❯</button>
+          <button class="carousel-btn carousel-next" type="button" aria-label="Next projects" onclick="scrollProjects(1)"><img src="./icons/chevron_right_48dp.png" alt="" /></button>
         </div>
         <img src="./arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
       </div>

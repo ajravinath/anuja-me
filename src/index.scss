@@ -476,6 +476,16 @@ section {
   transform: translateY(-1px);
 }
 
+.carousel-btn img {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
+:root[data-theme="dark"] .carousel-btn img {
+  filter: invert(1);
+}
+
 .about-containers.about-projects {
   flex: 1;
   min-width: 0;
