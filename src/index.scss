@@ -98,19 +98,15 @@ a:hover {
 
 .hamburger-menu {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .nav-right {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-}
-
-.hamburger-menu {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
 }
 
 .theme-toggle {
@@ -128,6 +124,7 @@ a:hover {
   justify-content: center;
   transition:
     border-color 0.2s ease,
+    color 0.3s ease,
     transform 0.2s ease;
 }
 
