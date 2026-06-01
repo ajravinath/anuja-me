@@ -1,29 +1,22 @@
 {
   "name": "anuja-me",
-  "version": "2.2.6",
+  "version": "2.3.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel public/index.html -p 9000",
-    "build": "parcel build public/index.html"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-transform-runtime": "^7.9.0",
-    "@babel/runtime-corejs3": "^7.9.2",
-    "eslint": "^6.8.0",
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-static-files-copy": "^2.6.0",
-    "sass": "^1.26.3"
-  },
-  "staticFiles": {
-    "staticPath": [
-      "./src/assets"
-    ],
-    "watcherGlob": "**"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3",
+    "sass": "^1.26.3",
+    "vite": "^8.0.16"
   },
   "dependencies": {
     "papaparse": "^5.4.1"
