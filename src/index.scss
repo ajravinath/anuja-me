@@ -74,7 +74,7 @@ nav {
 a {
   color: var(--text);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: transparent;
 }
 
 a:hover {
@@ -437,7 +437,7 @@ article .icon {
   border-radius: 1.5rem 1.5rem 0 0;
   width: 100%;
   height: 175px;
-  filter: drop-shadow(0 0 0.3rem var(--border));
+  filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.18));
   object-fit: cover;
 }
 
