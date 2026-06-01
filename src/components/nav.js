@@ -1,7 +1,9 @@
+import ThemeToggle from "./theme-toggle";
+
 const Nav = () => {
   const template = /*html*/ `<nav id="desktop-nav">
   <div class="logo">${document.myName}</div>
-  <div>
+  <div class="nav-right">
     <ul class="nav-links">
       <li>
       <a href="#about">About</a>
@@ -12,6 +14,7 @@ const Nav = () => {
       </li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    ${ThemeToggle()}
   </div>
   </nav>`;
 

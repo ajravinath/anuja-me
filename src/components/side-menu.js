@@ -1,3 +1,5 @@
+import ThemeToggle from "./theme-toggle";
+
 const SideMenu = () => {
   window.toggleOpen = () => {
     const menu = document.querySelector(".menu-links");
@@ -10,6 +12,7 @@ const SideMenu = () => {
     <nav id="hamburger-nav">
         <div class="logo">${document.myName}</div>
         <div class="hamburger-menu">
+            ${ThemeToggle()}
             <div class="hamburger-icon" onclick="toggleOpen()">
                 <span></span>
                 <span></span>
