@@ -262,6 +262,10 @@ section {
     background-color: white;
     border-radius: 50%;
   }
+
+  &.small {
+    height: 1.3rem;
+  }
 }
 
 .btn-container {

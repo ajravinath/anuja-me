@@ -5,7 +5,7 @@ const SectionContact = () => {
       <h2 class="title">Contact me</h2>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img src="./email.png" alt="email icon" class="icon contact-icon email-icon" />
+          <img src="./icons/e_mail_48dp.png" alt="email icon" class="icon contact-icon email-icon" />
           <p>
             <a href="mailto:anuja.ranwalage@gmail.com">anuja.ranwalage@gmail.com</a>
           </p>

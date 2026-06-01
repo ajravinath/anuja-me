@@ -139,7 +139,7 @@ In `src/components/section-experience.js`, the Languages list contains TypeScrip
 
 ```js
 <article>
-  <img src="./checkmark.png" alt="experience icon" class="icon" />
+  <img src="./icons/check_circle_48dp.png" alt="experience icon" class="icon" />
   <div>
     <p>TypeScript</p>
     <p>Experienced</p>

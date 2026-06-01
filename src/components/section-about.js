@@ -18,14 +18,14 @@ const SectionAbout = () => {
               <div class="about-containers about-about">
                 <div class="details-container">
                   <div>
-                    <img src="./experience.png" alt="experience icon" class="icon" />
+                    <img src="./icons/experience_48dp.png" alt="experience icon" class="icon" />
                     <h3>Experience</h3>
                     <p><b>${window.calcXp()}+ years</b><br> Software Engineering</p>
                   </div>
                 </div>
                 <div class="details-container">
                   <div>
-                    <img src="./education.png" alt="education icon" class="icon" />
+                    <img src="./icons/education_48dp.png" alt="education icon" class="icon" />
                     <h3>Education</h3>
                     <p>BSc. Computer Science<br>General Sir John Kotelawala Defense University<br><b>Upper Second Class Honours (GPA 3.64)</b>
                     </p>

@@ -1,4 +1,15 @@
 const SectionProfile = () => {
+  const current =
+    document.documentElement.getAttribute("data-theme") || "light";
+  const soIcon =
+    current === "dark" ? "./icons/so_dark.png" : "./icons/so_light.png";
+
+  window.handleLoad = () => {
+    const storedTheme = localStorage.getItem("theme");
+    const newSOIcon = storedTheme === "dark" ? "./icons/so_dark.png" : "./icons/so_light.png";
+    document.getElementById("so-icon").src = newSOIcon;
+  };
+
   const template = /*html*/ `
     <section id="profile">
         <div class="section__pic-container">
@@ -23,7 +34,7 @@ const SectionProfile = () => {
         <div id="socials-container">
             <img src="./linkedin.png" alt="linkedIn" class="icon" title="linkedIn" onclick="window.open('https://www.linkedin.com/in/anuja-ranwalage/', '_blank')" />
             <img src="./github.png" alt="github" class="icon" title="github" onclick="window.open('https://github.com/ajravinath', '_blank')" />
-            <img src="./stackoverflow.png" alt="stackoverflow" title="stackoverflow" class="icon round" onclick="window.open('https://stackoverflow.com/users/4288706/anuja', '_blank')" />
+            <img id="so-icon" src="${soIcon}" alt="stackoverflow" title="stackoverflow" onload="handleLoad()" class="icon round" onclick="window.open('https://stackoverflow.com/users/4288706/anuja', '_blank')" />
           </div>
         </div>
     </section>
