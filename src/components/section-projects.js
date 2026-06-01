@@ -31,7 +31,7 @@ const SectionProjects = (data) => {
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h2 class="title">Projects</h2>
-      <div class="experience-details-container pj scroll-shadows">
+      <div class="experience-details-container pj">
         <div class="about-containers about-projects">
           ${value}
         </div>
